@@ -1,0 +1,67 @@
+/* sass-plugin-0:/Users/admin/Documents/workspace/web3/buildspaceNFT/src/scss/main.scss */
+body {
+  background: #212339;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  margin-top: 8rem;
+}
+body #app .container {
+  text-align: center;
+}
+body #app .container .link {
+  color: aliceblue;
+}
+body #app .container .connect-wrapper {
+  margin-top: 2rem;
+}
+body #app .container .connect-wrapper .message {
+  color: #00ca94;
+  font-size: 14px;
+}
+body #app .container .connect-wrapper button.button {
+  margin-top: 2rem;
+  background: #6970d6;
+  border: 0;
+  box-shadow: #9ea3e5 4px 4px 0px;
+  color: white;
+  opacity: 0.8;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 8px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body #app .container #spinner {
+  margin-top: 4rem;
+}
+body #app .container #spinner.idle {
+  visibility: hidden;
+}
+body #app .container #spinner.done .wave-wrapper {
+  visibility: hidden;
+}
+body #app .container #spinner.done .confirmation {
+  visibility: visible;
+}
+body #app .container #spinner.proccesing .wrapper {
+  visibility: visible;
+}
+body #app .container #spinner .wave-wrapper .text {
+  text-align: center;
+  opacity: 0.8;
+  font-size: 14px;
+}
+body #app .container #spinner .wave-wrapper .wrapper {
+  margin: 1rem auto 0 auto;
+}
+body #app .container #spinner .confirmation {
+  opacity: 0.8;
+  visibility: hidden;
+  margin-top: 2rem;
+  font-size: 14px;
+  color: white;
+  display: inline-block;
+  width: 50%;
+}
+/*# sourceMappingURL=main.css.map */
