@@ -116,9 +116,9 @@
 </script>
 
 <div class="container">
-  <h1 class="header">NFT MINTER</h1>
+  <h1 class="header">NFT MAKER</h1>
   <a href={nftCollectionURL} class="link" target="_blank"
-    >view my NFT collection here</a
+    >view my Picasso-inspired NFT collection here</a
   >
 
   <div class="connect-wrapper">
